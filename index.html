@@ -14,25 +14,76 @@
 <h1>赵亮的个人简历</h1>
 <table border="1" cellpadding="10">
     <tr>
-        <td width="100">姓名：</td>
+        <td width="100" bgcolor="#dcdcdc">姓名：</td>
         <td width="100">赵亮</td>
-        <td width="100">性别：</td>
+        <td width="100" bgcolor="#dcdcdc">性别：</td>
         <td width="100">男</td>
-        <td rowspan="4" width="100" align="center">照片</td>
+        <td rowspan="4" width="100" align="center" bgcolor="#dcdcdc">照片</td>
     </tr>
     <tr>
-        <td width="100">地址：</td>
+        <td width="100" bgcolor="#dcdcdc">地址：</td>
         <td colspan="3">东城区交南大街67号</td>
     </tr>
     <tr>
-        <td width="100">电话</td>
+        <td width="100" bgcolor="#dcdcdc">电话</td>
         <td colspan="3">13488895380</td>
     </tr>
     <tr>
-        <td width="100">电子邮箱</td>
+        <td width="100" bgcolor="#dcdcdc">电子邮箱</td>
         <td colspan="3">zhaoliang@cannews.com.cn</td>
     </tr>
+    <tr>
+        <td width="100" bgcolor="#dcdcdc" colspan="5" align="center">兴趣爱好（可多选）</td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            <form action="">
+                <input type="checkbox" name="book" value="1"/> 阅读&nbsp;&nbsp;
+                <input type="checkbox" name="photo" value="2"/> 摄影&nbsp;&nbsp;
+                <input type="checkbox" name="games" value="3"/> 游戏
+            </form>
+        </td>
+        <td width="100" align="right">
+            <form action="">
+                <input type="submit" value="提交"/>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td width="100" bgcolor="#dcdcdc" colspan="5" align="center">我的旅行经历（在下拉菜单中选择）</td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <form action="">
+                国外景点：<select name="s1" id="">
+                    <option value="beijing" disabled="disabled">beijing</option>
+                    <option value="tianjin">tianjin</option>
+                    <option value="shanghai" selected="selected">shanghai</option>
+                    <option value="nanjing">nanjing</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;国内景点：<select name="s1" id="">
+                    <option value="jiangxi">江西</option>
+                    <option value="hainan">海南</option>
+                    <option value="hangzhou">杭州</option>
+                    <option value="zhoushan">舟山</option>
+                </select>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <form action="">
+                留言：
+                <textarea style="min-width: 500px;max-width: 500px;min-height:500px;max-height:500px;" ></textarea>
+            </form>
+        </td>
+    </tr>
 </table>
+
+
+
+
+
 <form action="">
     First name:<input type="text" neme="firstname"><br>
     Last name:<input type="text" nems="lastname"><br>
