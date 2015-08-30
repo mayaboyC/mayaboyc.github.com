@@ -1,9 +1,43 @@
 <!doctype html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>我的第一个网页</title>
 </head>
 <body>
-Hello World!
+<form action="">
+    First name:<input type="text" neme="firstname"><br>
+    Last name:<input type="text" nems="lastname"><br>
+    <input type="radio" neme="sex" value="male"/> male
+    <input type="radio" name="sex" value="female"/> female
+</form>
+<br>
+<form>
+    男性：
+    <input type="radio" checked="checked" name="Sex" value="male" />
+    <br />
+    女性：
+    <input type="radio" name="Sex" value="female" />
+</form>
+<br>
+<form action="">
+    以下哪些动物属于猫科动物：<br>
+    <input type="checkbox" name="cat" value="1"/> 猫
+    <input type="checkbox" name="dog" value="2"/> 狗
+    <input type="checkbox" name="Tiger" value="3"/> 老虎
+    <input type="checkbox" name="Leopard" value="4"/> 豹子
+    <br/>
+    <input type="submit" value="提交"/>
+    <input type="reset" value="重置"/>
+</form>
+<br/>
+<form action="">
+    <select name="s1" id="">
+        <option value="beijing" disabled="disabled">beijing</option>
+        <option value="tianjin">tianjin</option>
+        <option value="shanghai" selected="selected">shanghai</option>
+        <option value="nanjing">nanjing</option>
+    </select>
+</form>
 </body>
 </html>
